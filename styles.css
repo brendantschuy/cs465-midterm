@@ -1,0 +1,95 @@
+.body-about-container {
+    background-image: url("sisters.jpg");
+    background-size: cover;
+}
+
+.body-projects-container {
+    background-color: rgba(135,206,235,0.2);
+}
+h1 {
+    font-size: 22px;
+    color: black;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+#active-page {
+    color: white;
+}
+
+#main-content-about {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.content {
+    border-radius: 40px;
+    flex: 1 1 200px;
+    height: 320px;
+    padding: 8px;
+}
+
+.content-about {
+    background-color: rgba(70,130,180, 0.7);
+}
+
+.content-about-mid {
+    background-color: transparent;
+}
+
+.content-about-left {
+    text-align: center;
+}
+
+
+.hobby-list {
+    list-style-position: inside;
+}
+
+.projects-row {
+    max-height: 33%;
+}
+
+.content-spacefiller {
+    height: 300px;
+    width: 100%;
+}
+
+.body-container {
+    height: 800px;
+}
+
+#mainImg {
+    display: block;
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin: auto;
+}
+
+.projects-img {
+    max-width:90%;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.projects-content-square {
+    background-color: rgba(255,228,181, 0.7);
+    border-radius: 80px;
+    text-align: center;
+}
